@@ -23,6 +23,248 @@
   ],
   "settings": [
     {
+      "id": "halla_default_title",
+      "type": "static",
+      "format": "title",
+      "value": "الواجهة الجاهزة لعاريبك — الصور والأقسام قابلة للتعديل",
+      "variant": "h6"
+    },
+    {
+      "id": "halla_default_home",
+      "type": "boolean",
+      "format": "switch",
+      "label": "عرض واجهة عاريبك الجاهزة تلقائياً",
+      "description": "تظهر الصور والأقسام والمنتجات من أول تشغيل. أوقفها للرجوع إلى محرر أقسام الصفحة الرئيسية في سلة.",
+      "value": true,
+      "required": false
+    },
+    {
+      "id": "halla_default_show_hero",
+      "type": "boolean",
+      "format": "switch",
+      "label": "إظهار البنر الرئيسي",
+      "value": true,
+      "required": false
+    },
+    {
+      "id": "halla_default_hero_desktop",
+      "type": "string",
+      "format": "image",
+      "label": "صورة البنر الرئيسي — سطح المكتب",
+      "value": "/halla/3areb-hero.jpg",
+      "required": false
+    },
+    {
+      "id": "halla_default_hero_mobile",
+      "type": "string",
+      "format": "image",
+      "label": "صورة البنر الرئيسي — الجوال",
+      "value": "",
+      "required": false
+    },
+    {
+      "id": "halla_default_hero_alt",
+      "type": "string",
+      "format": "text",
+      "label": "وصف صورة البنر",
+      "value": "ألعابك وخدماتك الرقمية في مكان واحد",
+      "required": false
+    },
+    {
+      "id": "halla_default_hero_url",
+      "type": "string",
+      "format": "url",
+      "label": "رابط البنر الرئيسي",
+      "value": "",
+      "required": false
+    },
+    {
+      "id": "halla_default_show_story",
+      "type": "boolean",
+      "format": "switch",
+      "label": "إظهار شريط الثقة والإحصائيات",
+      "value": true,
+      "required": false
+    },
+    {
+      "id": "halla_default_orders_value",
+      "type": "string",
+      "format": "text",
+      "label": "الطلبات المعروضة",
+      "value": "4,000+",
+      "required": false
+    },
+    {
+      "id": "halla_default_orders_label",
+      "type": "string",
+      "format": "text",
+      "label": "وصف عدد الطلبات",
+      "value": "طلب وأكثر",
+      "required": false
+    },
+    {
+      "id": "halla_default_years_value",
+      "type": "string",
+      "format": "text",
+      "label": "سنوات الخبرة المعروضة",
+      "value": "1+",
+      "required": false
+    },
+    {
+      "id": "halla_default_years_label",
+      "type": "string",
+      "format": "text",
+      "label": "وصف سنوات الخبرة",
+      "value": "سنة من خدمتكم",
+      "required": false
+    },
+    {
+      "id": "halla_default_rating_value",
+      "type": "string",
+      "format": "text",
+      "label": "النص الاحتياطي للتقييم",
+      "value": "آراء العملاء",
+      "required": false
+    },
+    {
+      "id": "halla_default_rating_label",
+      "type": "string",
+      "format": "text",
+      "label": "وصف التقييم",
+      "value": "نعتز بثقتكم",
+      "required": false
+    },
+    {
+      "id": "halla_default_show_discovery",
+      "type": "boolean",
+      "format": "switch",
+      "label": "إظهار قسم اكتشف الأقسام",
+      "value": true,
+      "required": false
+    },
+    {
+      "id": "halla_default_discovery_title",
+      "type": "string",
+      "format": "text",
+      "label": "عنوان الأقسام المميزة",
+      "value": "اكتشف أقسام عاريبك",
+      "required": false
+    },
+    {
+      "id": "halla_default_discovery_subtitle",
+      "type": "string",
+      "format": "text",
+      "label": "وصف الأقسام المميزة",
+      "value": "كل اللي تحتاجه للألعاب والخدمات الرقمية في مكان واحد",
+      "required": false
+    },
+    {
+      "id": "halla_default_discovery_items",
+      "type": "collection",
+      "format": "collection",
+      "label": "صور وروابط الأقسام المميزة",
+      "item_label": "قسم",
+      "minLength": 1,
+      "maxLength": 12,
+      "required": false,
+      "value": [
+        { "image": "/halla/11.webp", "title": "ستيم", "url": "/-/c740860254" },
+        { "image": "/halla/10.webp", "title": "بلايستيشن", "url": "/-/c1980267989" },
+        { "image": "/halla/12.webp", "title": "إكس بوكس", "url": "/-/c1467946351" },
+        { "image": "/halla/08.webp", "title": "يوتيوب", "url": "/-/c314697870" }
+      ],
+      "fields": [
+        { "id": "image", "type": "string", "format": "image", "label": "صورة القسم", "required": false },
+        { "id": "title", "type": "string", "format": "text", "label": "اسم القسم", "required": false },
+        { "id": "url", "type": "string", "format": "url", "label": "رابط القسم", "required": false }
+      ]
+    },
+    {
+      "id": "halla_default_show_best_selling",
+      "type": "boolean",
+      "format": "switch",
+      "label": "إظهار الأكثر مبيعاً من ستيم",
+      "value": true,
+      "required": false
+    },
+    {
+      "id": "halla_default_steam_title",
+      "type": "string",
+      "format": "text",
+      "label": "عنوان منتجات ستيم",
+      "value": "الأكثر مبيعاً من ستيم",
+      "required": false
+    },
+    {
+      "id": "halla_default_steam_subtitle",
+      "type": "string",
+      "format": "text",
+      "label": "وصف منتجات ستيم",
+      "value": "اختيارات يفضلها لاعبو ستيم",
+      "required": false
+    },
+    {
+      "id": "halla_default_steam_category",
+      "type": "items",
+      "format": "dropdown-list",
+      "label": "تصنيف منتجات الأكثر مبيعاً",
+      "source": "categories",
+      "options": [],
+      "selected": [{ "label": "ستيم", "value": 740860254 }],
+      "multichoice": false,
+      "searchable": true,
+      "required": false
+    },
+    {
+      "id": "halla_default_steam_limit",
+      "type": "number",
+      "format": "integer",
+      "label": "عدد المنتجات المعروضة",
+      "description": "يعرض حتى 12 منتجاً من تصنيف ستيم في المتجر.",
+      "value": 12,
+      "required": false
+    },
+    {
+      "id": "halla_default_show_offers",
+      "type": "boolean",
+      "format": "switch",
+      "label": "إظهار قسم العروض والمنتجات",
+      "value": true,
+      "required": false
+    },
+    {
+      "id": "halla_default_offers_background",
+      "type": "string",
+      "format": "image",
+      "label": "صورة خلفية العروض",
+      "value": "/halla/offer.webp",
+      "required": false
+    },
+    {
+      "id": "halla_default_offers_title",
+      "type": "string",
+      "format": "text",
+      "label": "عنوان العروض",
+      "value": "عروض عاريبك",
+      "required": false
+    },
+    {
+      "id": "halla_default_offers_subtitle",
+      "type": "string",
+      "format": "text",
+      "label": "وصف العروض",
+      "value": "أسعار مميزة على اختياراتك الرقمية",
+      "required": false
+    },
+    {
+      "id": "halla_default_offers_limit",
+      "type": "number",
+      "format": "integer",
+      "label": "عدد المنتجات في قسم العروض",
+      "value": 8,
+      "required": false
+    },
+    {
       "id": "squar_photo_bg_image_size",
       "type": "items",
       "format": "dropdown-list",
