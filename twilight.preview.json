@@ -1,0 +1,123 @@
+{
+  "enabled": true,
+  "settings": {
+    "squar_photo_bg_image_size": "contain",
+    "square_photos_equal_size": false,
+    "vertical_fixed_products": false,
+    "is_more_button_enabled": false,
+    "header_is_sticky": true,
+    "topnav_is_dark": true,
+    "important_links": true,
+    "enable_more_menu": true,
+    "footer_is_dark": true,
+    "product_show_breadcrumbs": true,
+    "product_index_show_breadcrumbs": true,
+    "enable_add_product_toast": true,
+    "notify_when_available_in_card": true,
+    "sticky_add_to_cart": true,
+    "show_tags": true,
+    "product_card_img_ratio": "auto",
+    "slider_background_size": "contain",
+    "imageZoom": false
+  },
+  "layout": [
+    {
+      "id": "b-b8d26eb2f403",
+      "path": "halla-hero",
+      "fields": {
+        "alt": "ألعابك وخدماتك الرقمية في مكان واحد",
+        "url": "",
+        "mobile": "",
+        "key": "cb388e7d-e7f5-4a0f-a023-0acc36e71bbc",
+        "desktop": "/halla/3areb-hero.jpg"
+      }
+    },
+    {
+      "id": "b-1db701d7c58a",
+      "path": "halla-story",
+      "fields": {
+        "orders_value": "4,000+",
+        "orders_label": "طلب وأكثر",
+        "years_value": "1+",
+        "years_label": "سنة من خدمتكم",
+        "rating_value": "آراء العملاء",
+        "rating_label": "نعتز بثقتكم",
+        "key": "0a83136e-aa2d-428d-9634-b8f2d5361fb3"
+      }
+    },
+    {
+      "id": "b-406e66e44980",
+      "path": "halla-discovery",
+      "fields": {
+        "items": [
+          {
+            "items.image": "/halla/11.webp",
+            "items.url": "/-/c740860254",
+            "items.title": "ستيم"
+          },
+          {
+            "items.image": "/halla/10.webp",
+            "items.url": "/-/c1980267989",
+            "items.title": "بلايستيشن"
+          },
+          {
+            "items.image": "/halla/12.webp",
+            "items.url": "/-/c1467946351",
+            "items.title": "إكس بوكس"
+          },
+          {
+            "items.image": "/halla/08.webp",
+            "items.url": "/-/c314697870",
+            "items.title": "يوتيوب"
+          }
+        ],
+        "title": "اكتشف أقسام عاريبك",
+        "subtitle": "كل اللي تحتاجه للألعاب والخدمات الرقمية في مكان واحد",
+        "key": "dfc77dc3-4289-459f-8850-e9dba3bc99a9"
+      }
+    },
+    {
+      "id": "b-8ca8ea794300",
+      "path": "halla-best-selling",
+      "fields": {
+        "title": "الأكثر مبيعاً من ستيم",
+        "subtitle": "اختيارات يفضلها لاعبو ستيم",
+        "category": 740860254,
+        "limit": 12,
+        "sort": "bestSell",
+        "key": "8ca8ea79-4300-4d61-8bfa-7419aab46220"
+      }
+    },
+    {
+      "id": "b-5aa6de91eb24",
+      "path": "halla-offers",
+      "fields": {
+        "title": "عروض عاريبك",
+        "background": "/halla/offer.webp",
+        "subtitle": "أسعار مميزة على اختياراتك الرقمية",
+        "limit": 8,
+        "products": [
+          {
+            "url": "https://3areb.com/p288435102",
+            "name": "فانتوم بليد زيرو دخول فوري | Phantom Blade Zero",
+            "image": "https://cdn.salla.sa/aebdqb/3c13516e-ac0e-44a5-9b14-d7751f713e21-500x500-cSFEPmuxz1qmk9VBCb7en4HmGYf17w9B5T9tZzti.png",
+            "id": 288435102
+          },
+          {
+            "url": "https://3areb.com/p881214113",
+            "name": "ديد لوك ستيم | Deadlock Steam",
+            "image": "https://cdn.salla.sa/aebdqb/e4ae2dcf-f356-47af-bf91-3b43564ec48c-500x500-Mbx6zUlAHTqB9SYkcpxq2E7ofX43OfNZy09Lpov8.png",
+            "id": 881214113
+          },
+          {
+            "url": "https://3areb.com/p1984379695",
+            "name": "فانتوم بليد زيرو | Phantom Blade Zero",
+            "image": "https://cdn.salla.sa/aebdqb/a396c494-58fa-4b62-abff-b9783f749827-500x500-QqDSr04Rd4kDUvCQYbtgDhXFHQQZ1zDCKAnaGbcD.png",
+            "id": 1984379695
+          }
+        ],
+        "key": "5704ab0a-7fde-49f3-b691-b3aaf55b6214"
+      }
+    }
+  ]
+}
